@@ -13,11 +13,11 @@
 
 ### Requirements
 
-Some of the more advanced automations regarding specific frameworks require some Applescript and JavaScript to work. Currently only working on MacOS, these profiles will be marked as Mac only.
+Some of the more advanced automations regarding specific frameworks require some Applescript and JavaScript to work, these profiles will be marked as MacOS only.
 
-- MacOS 10.11 and later
+- Tested on MacOS 10.11 or later
 - Stream Deck Plugin : [OSA Script](https://apps.elgato.com/plugins/com.gabrielperales.osascript)
-- Chromium based browser
+- Google Chrome (can be used with other Chromium based browsers with [minor changes to select actions](#browser-migration))
 - Allow JavaScript from Apple Events in the developer tab
 - *Some client first related actions will require the [Finsweet Extension](https://chrome.google.com/webstore/detail/finsweet-extension-for-we/mjfibgdpclkaemogkfadpbdfoinnejep)*
 
@@ -46,3 +46,19 @@ FlowDeck is still a work in progress. We are actively developing and refining th
 Please note that while we strive to provide a stable and reliable solution, FlowDeck is currently a work in progress. Use it at your own risk, and we appreciate your understanding and patience during the development process.
 
 We are in no way affiliated with Webflow or {Finsweet.
+
+---
+
+## Browser Migration
+
+For some actions involving Applescript, a browser is specified. To use other browsers instead, you'll have to modify the Applescript in those actions to point at your new browser. 
+
+To make the changes, click into the stream deck action (if it is a multi action, double click and look through the list for any "Custom: Run OSA script" actions where the first line says 'tell application "Google Chrome"'). Change the browser listed to the browser of your choice (Arc, Brave, etc.).
+
+`tell application "Arc" activate`
+
+The following actions have/are an Applescript action which requires updating:
+
+- Add Attribute
+- Add Heading H(1-6)
+- H(1-6) w/ Folder
