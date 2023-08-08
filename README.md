@@ -1,11 +1,15 @@
 # FlowDeck
 
+![FlowDeck](assets/images/flowdeck-cover.png)
+
 > **Note: This project is currently under active development.**
 
 ### Table of Contents
 
 - [Project Details](#project-details)
 - [Quickstart](#quickstart)
+- [Profile Overview](#profile-overview)
+- [Browser Migration](#browser-migration)
 
 ---
 
@@ -17,7 +21,7 @@ FlowDeck is a method for using a Stream Deck profile to enhance the Webflow buil
 
 ### Project Status
 
-FlowDeck is still a work in progress. We are actively developing and refining the Stream Deck profile to ensure it meets the needs of Webflow developers.
+FlowDeck is still a work in progress. We are actively developing and refining the Stream Deck profiles to ensure they meet the needs of Webflow developers.
 
 ### Features (planned)
 
@@ -44,7 +48,7 @@ Some of the more advanced automations regarding specific frameworks require some
 - Tested on MacOS 10.11 or later
 - Stream Deck App/Software
 - Stream Deck Plugin for Applescript: [OSA Script](https://apps.elgato.com/plugins/com.gabrielperales.osascript)
-- Google Chrome (can be used with other Chromium based browsers with [minor changes to select actions](#browser-migration))
+- Google Chrome (can be used with other Chromium based browsers with [minor changes to select actions, see Browser Migration](#browser-migration))
 - Allow JavaScript from Apple Events in the developer tab of your browser
 - **In Webflow** bring up the **Quick Find** bar with cmd or ctrl + k or e, and click on the settings icon on the right end of the bar, make sure all actions are enabled **except** for 'Add asset'
 - *Some client first related actions will require the [Finsweet Extension](https://chrome.google.com/webstore/detail/finsweet-extension-for-we/mjfibgdpclkaemogkfadpbdfoinnejep)*
@@ -57,13 +61,80 @@ After choosing the profiles you'd like to use on your Stream Deck and downloadin
 1. Open the **Stream Deck** software and open the **Settings**
 2. In the **Settings** click on the **Profiles** tab
 3. Click on the down arrow at the bottom right of the **Profiles** window and click **Import...**
-4. Navigate to your downloaded profiles and click to add them.
-5. The imported profiles will be add to your profile list for that device.
+4. Navigate to your downloaded profile(s) and click to add them.
+5. The imported profile(s) will be added to your profile list for that device.
 
 
 ### Post-Install
 
 The profiles are setup with a variety of tools ready to be used, but to take full advantage of the idea behind this concept, explore the actions and modify them or the layout to best suit your workflow!
+
+---
+
+## Profile Overview
+
+The profiles below are currently planned or available depending on their status. Plans specific to certain frameworks, like Client-First for example, won't **only** contain framework specific actions, rather they will aim to build on useful Webflow actions, with framework specific benefits.
+
+For example, in the Client-First profiles below, any action that is listed as action **with folder** will add the element listed, and then will attempt to grab a class from the element currently selected on the canvas, extract the current folder from the class name, and paste it as a class on your new element, waiting for your input.
+
+![Client-First V1 Add Element with Folder Demo](assets/images/cf15v1-demo.gif)
+
+| Profile               	| File    	| Status 	|
+|-----------------------	|---------	|:------:	|
+| Client-First (6 Key)  	| CF06.V1 	|    🟢   	|
+| Client-First (15 Key) 	| CF15.V1 	|    🟢   	|
+| Client-First (32 Key) 	| CF32.V1 	|    🔴   	|
+| Webflow (Basic)       	|         	|    🔴   	|
+| Webflow (Advanced)    	|         	|    🔴   	|
+| Wized Actions         	|         	|    🔴   	|
+| Mast Framework        	|         	|    🔴   	|
+
+### Client-First
+
+The Client-First profiles contain the following actions:
+
+**6 Key**
+- page structure
+- new section
+- padding-global
+- div with folder
+- rename last class
+- text with folder
+
+**15 Key**
+- page structure
+- new section
+- padding-global
+- container
+  - container-small
+  - container-medium
+  - container-large
+- padding-section
+  - padding-section-small
+  - padding-section-medium
+  - padding-section-large
+- heading with folder
+  - h1 w/ folder
+  - h2 w/ folder
+  - h3 w/ folder
+  - h4 w/ folder
+  - h5 w/ folder
+  - h6 w/ folder
+- text with folder
+- div with folder
+- image with folder
+- links with folder
+  - text-link w/ folder
+  - link-block w/ folder
+- spacer blocks
+  - spacer-block-small
+  - spacer-block-medium
+  - spacer-block-large
+  - spacer-block-xlarge
+- rename last class
+- add attribute
+- open folders
+- publish
 
 ---
 
