@@ -56,7 +56,7 @@ Some of the more advanced automations regarding specific frameworks require some
 
 ### Installation
 
-After choosing the profiles you'd like to use on your Stream Deck and downloading them, follow these instructions to import them:
+After choosing the [profiles](#profile-overview) you'd like to use on your Stream Deck and downloading them, follow these instructions to import them:
 
 1. Open the **Stream Deck** software and open the **Settings**
 2. In the **Settings** click on the **Profiles** tab
@@ -81,9 +81,9 @@ For example, in the Client-First profiles below, any action that is listed as ac
 
 | Profile               	| File    	| Status 	|
 |-----------------------	|---------	|:------:	|
-| Client-First (6 Key)  	| CF06.V1 	|    🟢   	|
-| Client-First (15 Key) 	| CF15.V1 	|    🟢   	|
-| Client-First (32 Key) 	| CF32.V1 	|    🔴   	|
+| Client-First (6 Key)  	| [CF06.V1](profiles/client-first/FlowDeck%20CF06.V1.streamDeckProfile) 	|    🟢   	|
+| Client-First (15 Key) 	| [CF15.V1](profiles/client-first/FlowDeck%20CF15.V1.streamDeckProfile) 	|    🟢   	|
+| Client-First (32 Key) 	|           |    🔴   	|
 | Webflow (Basic)       	|         	|    🔴   	|
 | Webflow (Advanced)    	|         	|    🔴   	|
 | Wized Actions         	|         	|    🔴   	|
