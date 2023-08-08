@@ -79,15 +79,15 @@ For example, in the Client-First profiles below, any action that is listed as ac
 
 ![Client-First V1 Add Element with Folder Demo](assets/images/cf15v1-demo.gif)
 
-| Profile               	| File    	| Status 	|
-|-----------------------	|---------	|:------:	|
-| Client-First (6 Key)  	| [CF06.V1](profiles/client-first/FlowDeck%20CF06.V1.streamDeckProfile) 	|    🟢   	|
-| Client-First (15 Key) 	| [CF15.V1](profiles/client-first/FlowDeck%20CF15.V1.streamDeckProfile) 	|    🟢   	|
-| Client-First (32 Key) 	|           |    🔴   	|
-| Webflow (Basic)       	|         	|    🔴   	|
-| Webflow (Advanced)    	|         	|    🔴   	|
-| Wized Actions         	|         	|    🔴   	|
-| Mast Framework        	|         	|    🔴   	|
+| Profile               	| File                                                                  	| Status 	| MacOS Required 	|
+|-----------------------	|-----------------------------------------------------------------------	|:------:	|:--------------:	|
+| Client-First (6 Key)  	| [CF06.V1](profiles/client-first/FlowDeck%20CF06.V1.streamDeckProfile) 	|    🟢   	|       Yes      	|
+| Client-First (15 Key) 	| [CF15.V1](profiles/client-first/FlowDeck%20CF15.V1.streamDeckProfile) 	|    🟢   	|       Yes      	|
+| Client-First (32 Key) 	|                                                                       	|    🔴   	|                	|
+| Webflow (Basic)       	|                                                                       	|    🔴   	|                	|
+| Webflow (Advanced)    	|                                                                       	|    🔴   	|                	|
+| Wized Actions         	|                                                                       	|    🔴   	|                	|
+| Mast Framework        	|                                                                       	|    🔴   	|                	|
 
 ### Client-First
 
